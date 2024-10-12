@@ -7,7 +7,6 @@ import { MongoCreateUserRepository } from "./repositories/create-user/mongo-crea
 import { CreateUserController } from "./controllers/create-user/create-user";
 import { MongoUpdateUserRepository } from "./repositories/update-user/mongo-update-users";
 import { UpdateUserController } from "./controllers/update-user/update-user";
-import { stat } from "fs";
 
 const main = async () => {
   config();
