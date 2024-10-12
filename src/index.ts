@@ -1,9 +1,9 @@
 import express from "express";
 import { config } from "dotenv";
 import { GetUsersController } from "./controllers/get-users/get-users";
-import { MongoGetUsersRepository } from "./controllers/repositories/get-users/mongo-get-users";
+import { MongoGetUsersRepository } from "./repositories/get-users/mongo-get-users";
 import { MongoClient } from "./database/mongo";
-import { MongoCreateUserRepository } from "./controllers/repositories/create-user/mongo-create-user";
+import { MongoCreateUserRepository } from "./repositories/create-user/mongo-create-user";
 import { CreateUserController } from "./controllers/create-user/create-user";
 
 const main = async () => {
